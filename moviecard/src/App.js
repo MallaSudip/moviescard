@@ -8,27 +8,14 @@ import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 function App() {
   
   return (
-    <div className="App">
     <Router>
-
     <Header />
     <Routes>
-
-    <Route path='/'>
-
-    <Route index element ={<Home />}/>
-   
-
-    </Route>
-    
-    
-    <Route path='/movie/:type' element = {<MoviesList />} />
+    <Route path='/' element={<Home/>}>    
+    <Route path='/movie/:type' element = {<MoviesList />} /> // path='/movie/:type' -> path='/movie/type/:id', it makes more sense
     <Route path='/movie/:id' element = {<MovieDetail />} />
-
     </Routes>
     </Router>
-
-    </div>
   );
 }
 
