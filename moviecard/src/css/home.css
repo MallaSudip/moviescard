@@ -1,0 +1,73 @@
+.home_wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+   
+}
+.poster_wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: auto;
+}
+.carousel{
+    position: relative;
+    height:800px;
+}
+.backdrop_images{
+    position: relative;
+    height: fit-content;
+    width: 100%;
+}
+.poster_wrapper>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: block;
+}
+.carousel .moviesInfo_wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 50%;
+    top: 6em;
+    width: 100%;
+    z-index: 3;
+    opacity: 1000;
+
+
+}
+.movies_title{
+    font-weight: 900;
+    font-size: 4em;
+    color: white;
+}
+.dateRating_wrapper{
+    color: white;
+    font-size: 2em;
+    margin: .8em;
+    font-weight: 600;
+}
+.movies_rating{
+    margin: 2em;
+}
+.movies_overview{
+    color: white;
+    width: 50%;
+    text-overflow: ellipsis;
+    margin-bottom: 3em;
+    font-size: 1.5;
+    font-weight: 500;
+    
+}
+
+
+  
+ 
+  
+

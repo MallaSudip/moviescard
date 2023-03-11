@@ -1,0 +1,45 @@
+ .cards .movies-card {
+  position: relative;
+  border-radius: 8px;
+  /* border: 8px solid blue; */
+  max-width: 100%;
+  height: 100%;
+  margin: 1em;
+
+}
+
+
+ .movies-card .cardPoster_wrapper {
+  
+  width: 100%;
+  height: 100%;
+  /* border: 7px solid green; */
+
+  
+}
+
+  .movies-card .cardPoster_wrapper img {
+  width: 100%;
+  height: 100%;
+  
+
+}
+
+.movies-card:hover img {
+  transform: scale(1.2);
+  transition: scale(1.2);
+  border: 6px solid red;
+}
+
+ .titleDescription_wrapper {
+  position: absolute;
+  bottom: 1em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* align-self: center; */
+  width: 100%;
+  /* border: 5px solid red; */
+}

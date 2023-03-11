@@ -1,0 +1,65 @@
+.navContainer {
+position: relative;
+ display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #192da0;
+  opacity: 1;
+}
+.brand {
+  color: white;
+  font-size: 2em;
+  background-color: #344ddd3d;
+  padding: 1em;
+  border-radius: 1em;
+  width: auto;
+  text-align: center;
+  height: 100%;
+}
+.brand:hover {
+  color: white;
+}
+
+.navContainer>.container {
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  align-self: flex-start;
+  height: 100%;
+ 
+}
+
+.navbar-nav > a {
+  color: white;
+  width: 100%;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 0.5em;
+  margin-right: 2em;
+  background-color: #085e79;
+
+}
+#home:visited{
+  background-color: rgb(207, 146, 32);
+
+}
+
+.navbar-nav > a:hover,.navbar-nav > a:active {
+  background-color: rgb(207, 146, 32);
+
+}
+.navbar-toggler{
+  background-color: #085e79;
+}
+.btn-info{
+  color: white;
+}
+.btn-info:hover{
+  background-color: #13b3e4;
+  color: white;
+}
+.form-control:focus{
+background-color: hsl(250,0%,80%);
+}
